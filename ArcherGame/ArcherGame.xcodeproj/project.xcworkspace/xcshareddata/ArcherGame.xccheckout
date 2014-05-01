@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>617E4AE1-1286-4839-8BEA-CCB14968EE6B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ArcherGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A49D31EC-AB3E-4DFB-AB12-F7A916EBA485</key>
+		<string>https://github.com/frize/Home.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ArcherGame/ArcherGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A49D31EC-AB3E-4DFB-AB12-F7A916EBA485</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/frize/Home.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A49D31EC-AB3E-4DFB-AB12-F7A916EBA485</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A49D31EC-AB3E-4DFB-AB12-F7A916EBA485</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GitHub_Home</string>
+		</dict>
+	</array>
+</dict>
+</plist>

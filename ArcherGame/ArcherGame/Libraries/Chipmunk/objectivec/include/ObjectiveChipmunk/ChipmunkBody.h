@@ -186,4 +186,5 @@ typedef void (^ChipmunkBodyArbiterIteratorBlock)(cpArbiter *arbiter);
 /// You should either understand how the cpBodyUpdatePosition() function works, or use the super method.
 -(void)updatePosition:(cpFloat)dt;
 
+-(void)setCenterOfGravity:(CGPoint)center;
 @end

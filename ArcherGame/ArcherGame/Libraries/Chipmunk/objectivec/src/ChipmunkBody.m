@@ -202,4 +202,8 @@ static void CallArbiterBlock(cpBody *body, cpArbiter *arbiter, ChipmunkBodyArbit
 	cpBodyEachArbiter(&_body, (cpBodyArbiterIteratorFunc)CallArbiterBlock, block);
 }
 
+-(void)setCenterOfGravity:(CGPoint)center{
+    cpBodySetCenterOfGravity(&(_body), center);
+}
+
 @end

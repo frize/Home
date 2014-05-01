@@ -7,7 +7,11 @@
 //
 
 #import "CCScene.h"
+#import "cocos2d.h"
+#import "cocos2d-ui.h"
 
 @interface ArTrainingScene : CCScene
+
++ (ArTrainingScene *)scene;
 
 @end

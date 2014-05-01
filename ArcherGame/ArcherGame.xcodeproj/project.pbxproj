@@ -212,6 +212,11 @@
 		1D6E57D7190DDFF7006633F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E57D6190DDFF7006633F1 /* AppDelegate.m */; };
 		1D6E57DA190DDFF7006633F1 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E57D9190DDFF7006633F1 /* HelloWorldScene.m */; };
 		1D6E57DD190DDFF7006633F1 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E57DC190DDFF7006633F1 /* IntroScene.m */; };
+		9B5CFB1B190FE4740000C369 /* ArPhysicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CFB11190FE4730000C369 /* ArPhysicObject.m */; };
+		9B5CFB1C190FE4740000C369 /* ArPhysicObjectCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CFB13190FE4730000C369 /* ArPhysicObjectCollection.m */; };
+		9B5CFB1E190FE4740000C369 /* ArTrainingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CFB19190FE4740000C369 /* ArTrainingScene.m */; };
+		9B5CFB21190FE4900000C369 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CFB20190FE4900000C369 /* Arrow.png */; };
+		9BC93E58191227DA00676766 /* ArPhysicArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC93E57191227DA00676766 /* ArPhysicArrow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -653,6 +658,15 @@
 		1D6E57D9190DDFF7006633F1 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		1D6E57DB190DDFF7006633F1 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		1D6E57DC190DDFF7006633F1 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		9B5CFB10190FE4730000C369 /* ArPhysicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArPhysicObject.h; sourceTree = "<group>"; };
+		9B5CFB11190FE4730000C369 /* ArPhysicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArPhysicObject.m; sourceTree = "<group>"; };
+		9B5CFB12190FE4730000C369 /* ArPhysicObjectCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArPhysicObjectCollection.h; sourceTree = "<group>"; };
+		9B5CFB13190FE4730000C369 /* ArPhysicObjectCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArPhysicObjectCollection.m; sourceTree = "<group>"; };
+		9B5CFB18190FE4740000C369 /* ArTrainingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArTrainingScene.h; sourceTree = "<group>"; };
+		9B5CFB19190FE4740000C369 /* ArTrainingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArTrainingScene.m; sourceTree = "<group>"; };
+		9B5CFB20190FE4900000C369 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		9BC93E56191227DA00676766 /* ArPhysicArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArPhysicArrow.h; sourceTree = "<group>"; };
+		9BC93E57191227DA00676766 /* ArPhysicArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArPhysicArrow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -724,6 +738,7 @@
 		1D6E5546190DDFF3006633F1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9B5CFB1F190FE4900000C369 /* ArSpriteImages */,
 				1D6E5547190DDFF3006633F1 /* Default.png */,
 				1D6E5549190DDFF3006633F1 /* Default@2x.png */,
 				1D6E554B190DDFF3006633F1 /* Default-568h@2x.png */,
@@ -1540,6 +1555,8 @@
 		1D6E57D4190DDFF7006633F1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9B5CFB0D190FE4730000C369 /* Objects */,
+				9B5CFB17190FE4740000C369 /* Scenes */,
 				1D6E57D5190DDFF7006633F1 /* AppDelegate.h */,
 				1D6E57D6190DDFF7006633F1 /* AppDelegate.m */,
 				1D6E57D8190DDFF7006633F1 /* HelloWorldScene.h */,
@@ -1548,6 +1565,39 @@
 				1D6E57DC190DDFF7006633F1 /* IntroScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		9B5CFB0D190FE4730000C369 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CFB10190FE4730000C369 /* ArPhysicObject.h */,
+				9B5CFB11190FE4730000C369 /* ArPhysicObject.m */,
+				9B5CFB12190FE4730000C369 /* ArPhysicObjectCollection.h */,
+				9B5CFB13190FE4730000C369 /* ArPhysicObjectCollection.m */,
+				9BC93E56191227DA00676766 /* ArPhysicArrow.h */,
+				9BC93E57191227DA00676766 /* ArPhysicArrow.m */,
+			);
+			name = Objects;
+			path = Classes/Objects;
+			sourceTree = "<group>";
+		};
+		9B5CFB17190FE4740000C369 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CFB18190FE4740000C369 /* ArTrainingScene.h */,
+				9B5CFB19190FE4740000C369 /* ArTrainingScene.m */,
+			);
+			name = Scenes;
+			path = Classes/Scenes;
+			sourceTree = "<group>";
+		};
+		9B5CFB1F190FE4900000C369 /* ArSpriteImages */ = {
+			isa = PBXGroup;
+			children = (
+				9B5CFB20190FE4900000C369 /* Arrow.png */,
+			);
+			name = ArSpriteImages;
+			path = Resources/ArSpriteImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1633,6 +1683,7 @@
 				1D6E574A190DDFF6006633F1 /* LICENSE_Kazmath.txt in Resources */,
 				1D6E5555190DDFF3006633F1 /* Icon-72.png in Resources */,
 				1D6E56A3190DDFF6006633F1 /* LICENSE_cocos2d.txt in Resources */,
+				9B5CFB21190FE4900000C369 /* Arrow.png in Resources */,
 				1D6E554C190DDFF3006633F1 /* Default-568h@2x.png in Resources */,
 				1D6E556C190DDFF4006633F1 /* iTunesArtwork in Resources */,
 				1D6E5567190DDFF3006633F1 /* Icon-Spotlight-iOS7.png in Resources */,
@@ -1669,6 +1720,7 @@
 				1D6E562B190DDFF5006633F1 /* CCSpriteBatchNode.m in Sources */,
 				1D6E564F190DDFF5006633F1 /* CCTransition.m in Sources */,
 				1D6E562E190DDFF5006633F1 /* CCSpriteFrame.m in Sources */,
+				9B5CFB1B190FE4740000C369 /* ArPhysicObject.m in Sources */,
 				1D6E55C2190DDFF4006633F1 /* CCNodeColor.m in Sources */,
 				1D6E569B190DDFF6006633F1 /* TransformUtils.m in Sources */,
 				1D6E563C190DDFF5006633F1 /* CCTextureCache.m in Sources */,
@@ -1729,6 +1781,7 @@
 				1D6E5649190DDFF5006633F1 /* CCTiledMapObjectGroup.m in Sources */,
 				1D6E5746190DDFF6006633F1 /* vec3.c in Sources */,
 				1D6E55C9190DDFF4006633F1 /* CCLayoutBox.m in Sources */,
+				9BC93E58191227DA00676766 /* ArPhysicArrow.m in Sources */,
 				1D6E55C6190DDFF4006633F1 /* CCLayout.m in Sources */,
 				1D6E56E9190DDFF6006633F1 /* OALSuspendHandler.m in Sources */,
 				1D6E5748190DDFF6006633F1 /* vec4.c in Sources */,
@@ -1740,6 +1793,7 @@
 				1D6E5684190DDFF6006633F1 /* ccUtils.c in Sources */,
 				1D6E55F5190DDFF5006633F1 /* CCPhysicsShape.m in Sources */,
 				1D6E55FD190DDFF5006633F1 /* CCRenderTexture.m in Sources */,
+				9B5CFB1C190FE4740000C369 /* ArPhysicObjectCollection.m in Sources */,
 				1D6E5583190DDFF4006633F1 /* CCActionManager.m in Sources */,
 				1D6E5627190DDFF5006633F1 /* CCSprite9Slice.m in Sources */,
 				1D6E5639190DDFF5006633F1 /* CCTextureAtlas.m in Sources */,
@@ -1773,6 +1827,7 @@
 				1D6E57D7190DDFF7006633F1 /* AppDelegate.m in Sources */,
 				1D6E55A7190DDFF4006633F1 /* CCDrawingPrimitives.m in Sources */,
 				1D6E5698190DDFF6006633F1 /* TGAlib.m in Sources */,
+				9B5CFB1E190FE4740000C369 /* ArTrainingScene.m in Sources */,
 				1D6E5664190DDFF5006633F1 /* UITouch+CC.m in Sources */,
 				1D6E5742190DDFF6006633F1 /* utility.c in Sources */,
 				1D6E56A1190DDFF6006633F1 /* ZipUtils.m in Sources */,
@@ -1989,6 +2044,7 @@
 				1D6E57E2190DDFF7006633F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6E57E3190DDFF7006633F1 /* Build configuration list for PBXNativeTarget "ArcherGame" */ = {
 			isa = XCConfigurationList;
@@ -1997,6 +2053,7 @@
 				1D6E57E5190DDFF7006633F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
